@@ -1,0 +1,22 @@
+.MuiPaper-root {
+  box-shadow: none !important;
+  border: none !important;
+  border-radius: 24px !important;
+  padding: 5px 0 0 0;
+  margin-bottom: 20px;
+}
+.MuiPaper-root h3 {
+  font-weight: 600 !important;
+  color: #0D182D !important;
+}
+.MuiPaper-root .css-yw020d-MuiAccordionSummary-expandIconWrapper {
+  color: #00B962;
+  margin-left: 5px;
+}
+.MuiPaper-root .css-20bmp1-MuiSvgIcon-root {
+  font-size: 32px;
+}
+
+.css-nt424e-MuiPaper-root-MuiAccordion-root::before {
+  background: none !important;
+}/*# sourceMappingURL=style.css.map */

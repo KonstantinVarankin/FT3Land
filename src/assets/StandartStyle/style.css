@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Geologica:100,200,300,regular,500,600,700,800,900);
+body {
+  font-family: "Geologica", sans-serif;
+}
+
+h1, h2, p {
+  color: #0D182D;
+}
+
+h1 {
+  font-size: 68px;
+  font-weight: 600 !important;
+  line-height: 81.6px;
+}
+
+h2 {
+  font-size: 40px;
+}
+h2 span {
+  font-size: 40px;
+  color: #00B962;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+span {
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+
+button.green {
+  background: #00B962;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 16px;
+}
+button.default {
+  background: none;
+  border: 1px solid #00B962;
+  color: #00B962;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1620px !important;
+  }
+}
+@media (min-width: 1001px) and (max-width: 1900px) {
+  h1 {
+    font-size: 56px !important;
+  }
+  h3 {
+    font-size: 22px !important;
+  }
+  p {
+    font-size: 16px !important;
+  }
+}
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 32px !important;
+    line-height: 38.4px;
+  }
+  h2 {
+    font-size: 20px !important;
+  }
+  h2 span {
+    font-size: 20px !important;
+  }
+  h3 {
+    font-size: 18px !important;
+  }
+  p {
+    font-size: 16px !important;
+    line-height: 22.4px;
+  }
+  button.green {
+    font-size: 14px;
+  }
+  button.default {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=style.css.map */

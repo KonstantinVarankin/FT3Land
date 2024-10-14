@@ -1,0 +1,50 @@
+.PrivacyPolicy {
+  background: #F7F7F7;
+}
+.PrivacyPolicy .boxs-policy {
+  margin-top: 70px;
+  background: #fff;
+  border-radius: 64px;
+  padding: 80px 118px;
+}
+.PrivacyPolicy .boxs-policy p.grey {
+  color: #A3A3A3;
+}
+.PrivacyPolicy .boxs-policy ul {
+  padding-left: 1.3rem;
+}
+.PrivacyPolicy .boxs-policy ul li {
+  color: #A3A3A3;
+}
+.PrivacyPolicy .boxs-policy h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1000px) {
+  .PrivacyPolicy {
+    background: #F7F7F7;
+  }
+  .PrivacyPolicy .boxs-policy {
+    margin-top: 30px;
+    background: #fff;
+    border-radius: 24px;
+    padding: 16px;
+  }
+  .PrivacyPolicy .boxs-policy h1 {
+    font-size: 24px !important;
+  }
+  .PrivacyPolicy .boxs-policy p.grey {
+    color: #A3A3A3;
+  }
+  .PrivacyPolicy .boxs-policy ul {
+    padding-left: 1.3rem;
+  }
+  .PrivacyPolicy .boxs-policy ul li {
+    color: #A3A3A3;
+  }
+  .PrivacyPolicy .boxs-policy h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */

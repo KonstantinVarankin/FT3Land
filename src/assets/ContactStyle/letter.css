@@ -1,0 +1,391 @@
+@import url(https://fonts.googleapis.com/css?family=Geologica:100,200,300,regular,500,600,700,800,900);
+h1, h2, p, span {
+  color: #0D182D;
+}
+
+.latterall {
+  font-family: "Geologica", sans-serif;
+}
+
+.latter {
+  height: 100%;
+  padding: 0 25px;
+  background: #F7F7F7;
+}
+.latter-head {
+  background: linear-gradient(180deg, #FFFFFF -1.09%, #C3F7DB 100%);
+  border-radius: 0 0 40px 40px;
+  width: 100%;
+}
+.latter-head .text {
+  height: 781px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.latter-head .text h1 {
+  font-weight: 600 !important;
+  font-size: 68px;
+  line-height: 81.6px;
+}
+.latter-head .text span {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 400 !important;
+}
+.latter-head .text p {
+  font-size: 18px;
+  line-height: 25.2px;
+  width: 956px;
+  margin-top: 20px;
+}
+.latter-head .text button {
+  display: block;
+  background: #00B962;
+  color: white;
+  padding: 18px;
+  width: 314px;
+  font-size: 20px;
+  font-weight: 500 !important;
+  margin-top: 10px;
+}
+.latter-section {
+  padding: 100px 0;
+  background: #F7F7F7;
+  width: 100%;
+}
+.latter-section .box {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 5%;
+}
+.latter-section .box:nth-child(1) {
+  margin-bottom: 80px;
+}
+.latter-section .box .content {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.latter-section .box .content h2 {
+  font-weight: 600 !important;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 10px;
+}
+.latter-section .box .content p {
+  font-size: 18px;
+}
+.latter-section .box .content ul {
+  padding-left: 0 !important;
+  margin-bottom: 0 !important;
+}
+.latter-section .box .content ul li {
+  font-size: 18px;
+  list-style: none;
+  margin-bottom: 10px;
+}
+.latter-section .box .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.latter-section .box .img img {
+  width: 100%;
+}
+.latter-footer {
+  width: 100%;
+  padding: 100px 0;
+}
+.latter-footer .box {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5%;
+}
+.latter-footer .box .downoald {
+  width: 54%;
+  background: #F7F7F7;
+  border-radius: 40px;
+  padding: 40px;
+  display: flex;
+  height: -moz-max-content;
+  height: max-content;
+  flex-direction: column;
+}
+.latter-footer .box .downoald h2 {
+  font-weight: 600 !important;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 10px;
+}
+.latter-footer .box .downoald p {
+  font-size: 24px;
+  line-height: 28.8px;
+}
+.latter-footer .box .downoald-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.latter-footer .box .downoald-btn button {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 16px;
+  background: #00B962;
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 18px;
+  width: 48%;
+}
+.latter-footer .box .downoald-btn button:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  padding: 18px 0;
+  background: #F7F7F7;
+  border: 1px solid #00B962;
+  color: #00B962;
+}
+.latter-footer .box .kamaz {
+  width: 46%;
+}
+.latter-footer .box .kamaz img {
+  width: 100%;
+}
+
+@media (max-width: 960px) {
+  .latter {
+    height: 100%;
+    padding: 0 0;
+    background: #F7F7F7;
+  }
+  .latter-head {
+    background: linear-gradient(180deg, #FFFFFF -1.09%, #C3F7DB 100%);
+    border-radius: 0 0 24px 24px;
+    padding-bottom: 30px;
+    width: 100%;
+  }
+  .latter-head .text {
+    height: -moz-max-content;
+    height: max-content;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .latter-head .text h1 {
+    font-weight: 600 !important;
+    font-size: 24px;
+    line-height: 28.8px;
+    margin: 24px 0 15px 0;
+  }
+  .latter-head .text span {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: 400 !important;
+  }
+  .latter-head .text p {
+    font-size: 14px;
+    line-height: 19.6px;
+    width: 93%;
+    margin-top: 10px;
+  }
+  .latter-head .text button {
+    display: block;
+    border-radius: 16px;
+    background: #00B962;
+    border: none;
+    color: white;
+    font-size: 14px;
+    padding: 18px;
+    width: 100% !important;
+    font-weight: 600;
+  }
+  .latter-section {
+    padding: 50px 0;
+    background: #F7F7F7;
+    width: 100%;
+  }
+  .latter-section .box {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 5%;
+    flex-direction: column;
+  }
+  .latter-section .box:nth-child(1) {
+    margin-bottom: 20px;
+    flex-direction: column-reverse;
+  }
+  .latter-section .box .content {
+    width: 100%;
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .latter-section .box .content h2 {
+    font-weight: 600 !important;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
+  .latter-section .box .content p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .latter-section .box .content ul {
+    margin-bottom: 0rem;
+    padding-left: 0rem !important;
+    list-style-type: none;
+  }
+  .latter-section .box .content ul li {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .latter-section .box .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .latter-section .box .img img {
+    width: 100%;
+  }
+  .latter-footer {
+    width: 100%;
+    padding: 50px 0;
+  }
+  .latter-footer .box {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    gap: 5%;
+  }
+  .latter-footer .box .downoald {
+    width: 100%;
+    background: #F7F7F7;
+    border-radius: 24px;
+    padding: 16px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .latter-footer .box .downoald h2 {
+    font-weight: 600 !important;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+  .latter-footer .box .downoald p {
+    font-size: 14px;
+    line-height: 16.8px;
+  }
+  .latter-footer .box .downoald-btn {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .latter-footer .box .downoald-btn button {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 16px;
+    background: #00B962;
+    border: none;
+    color: white;
+    font-size: 14px;
+    padding: 16px;
+    width: 100%;
+    font-weight: 600;
+  }
+  .latter-footer .box .downoald-btn button .down {
+    display: flex;
+    flex-direction: column;
+  }
+  .latter-footer .box .downoald-btn button:nth-child(2) {
+    background: #F7F7F7;
+    border: 1px solid #00B962;
+    color: #00B962;
+  }
+  .latter-footer .box .kamaz {
+    width: 100%;
+  }
+  .latter-footer .box .kamaz img {
+    width: 100%;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1900px) {
+  .latter-footer .box .downoald-btn button:nth-child(2), .latter-footer .box .downoald-btn button {
+    padding: 10px 0;
+  }
+  h1, h2, p, span {
+    color: #0D182D;
+  }
+  h1 {
+    font-size: 63px !important;
+  }
+  h2 {
+    font-size: 34px !important;
+  }
+  h2 span {
+    font-size: 34px !important;
+  }
+  p {
+    font-size: 16px !important;
+  }
+  .navbarmenu ul {
+    gap: 20px !important;
+  }
+  .navbarmenu ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .latter ul li {
+    font-size: 16px !important;
+  }
+  .latter ul li span {
+    font-size: 16px !important;
+    margin-left: 5px;
+  }
+  .latter ul img {
+    width: 20px !important;
+  }
+  .navbarmenu ul li button {
+    font-size: 16px !important;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo img {
+    width: 100px !important;
+  }
+  .latter-footer .box .downoald {
+    padding: 35px;
+  }
+}
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1620px !important;
+  }
+}/*# sourceMappingURL=letter.css.map */

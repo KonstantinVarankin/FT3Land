@@ -4,6 +4,14 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/Home';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
+import ContactPage from './pages/Contact'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './assets/StandartStyle/style.css'
+import Program from './pages/Dashboard';
+import Home from './pages/Home';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import PrivacyPDN from './pages/PrivacyPDN';
+import Secure from './pages/Secure';
 
 // Конфигурация axios
 axios.defaults.xsrfCookieName = 'csrftoken';
@@ -14,9 +22,14 @@ function App() {
     return (
         <Router>
             <Routes>
-                <Route path="/" element={<HomePage />} />
+                <Route path="/" element={<Home />} />
                 <Route path="/login" element={<LoginPage />} />
                 <Route path="/register" element={<RegisterPage />} />
+                <Route path='/contact'  element={<ContactPage />}/>
+                <Route path="/programm" element={<Program />} />
+                <Route path='/privacyPolicy' element={<PrivacyPolicy />} />
+                <Route path="/privacyPDN" element={<PrivacyPDN />} />
+                <Route path="/secure" element={<Secure />} />
                 {/* Здесь будут добавлены другие маршруты по мере необходимости */}
             </Routes>
         </Router>
