@@ -1,9 +1,9 @@
 @media (min-width: 1000px) {
-  button.css-19wsa2m-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  button.MuiButtonBase-root.Mui-selected {
     background: #0D182D !important;
     color: white !important;
   }
-  button.css-19wsa2m-MuiButtonBase-root-MuiTab-root {
+  button.MuiButtonBase-root {
     width: 296px;
     height: 61px;
     display: flex !important;
@@ -83,11 +83,11 @@
   .splide__arrow {
     display: none !important;
   }
-  button.css-19wsa2m-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  button.MuiButtonBase-root.Mui-selected {
     background: #0D182D !important;
     color: white !important;
   }
-  button.css-19wsa2m-MuiButtonBase-root-MuiTab-root {
+  button.MuiButtonBase-root {
     width: 195px;
     height: 41px;
     display: flex !important;

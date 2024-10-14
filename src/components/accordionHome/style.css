@@ -9,14 +9,27 @@
   font-weight: 600 !important;
   color: #0D182D !important;
 }
-.MuiPaper-root .css-yw020d-MuiAccordionSummary-expandIconWrapper {
+.MuiPaper-root .MuiAccordionSummary-expandIconWrapper {
   color: #00B962;
   margin-left: 5px;
 }
 .MuiPaper-root .css-20bmp1-MuiSvgIcon-root {
   font-size: 32px;
 }
+.MuiPaper-root::before {
+  display: none !important;
+}
 
 .css-nt424e-MuiPaper-root-MuiAccordion-root::before {
   background: none !important;
+}
+
+@media (min-width: 1000px) {
+  .MuiPaper-root {
+    padding: 13px 10px !important;
+  }
+  .MuiSvgIcon-root {
+    width: 40px !important;
+    height: 40px !important;
+  }
 }/*# sourceMappingURL=style.css.map */

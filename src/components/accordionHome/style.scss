@@ -8,7 +8,7 @@
         font-weight: 600 !important;
         color: #0D182D !important;
     }
-    .css-yw020d-MuiAccordionSummary-expandIconWrapper{
+    .MuiAccordionSummary-expandIconWrapper{
         color: #00B962;
         margin-left: 5px;
 
@@ -16,11 +16,25 @@
     .css-20bmp1-MuiSvgIcon-root{
         font-size: 32px ;
     }
+    &::before{
+        display: none !important;
+    }
     
 }
 .css-nt424e-MuiPaper-root-MuiAccordion-root::before{
     background: none !important;
 }
 .css-nt424e-MuiPaper-root-MuiAccordion-root:first-of-type{
+    
+}
+
+@media (min-width: 1000px) {
+    .MuiPaper-root{
+        padding: 13px 10px !important;
+    }
+    .MuiSvgIcon-root {
+        width: 40px !important;
+        height: 40px !important;
+    }
     
 }

@@ -1,12 +1,12 @@
 
 @media (min-width: 1000px) {
     button{
-        &.css-19wsa2m-MuiButtonBase-root-MuiTab-root.Mui-selected  {
+        &.MuiButtonBase-root.Mui-selected  {
             background: #0D182D !important;
             color: #ffff !important;
             
         }
-        &.css-19wsa2m-MuiButtonBase-root-MuiTab-root{
+        &.MuiButtonBase-root{
             width: 296px;
             height: 61px;
             display: flex !important;
@@ -101,12 +101,12 @@
         display: none !important;
     }
     button{
-        &.css-19wsa2m-MuiButtonBase-root-MuiTab-root.Mui-selected  {
+        &.MuiButtonBase-root.Mui-selected  {
             background: #0D182D !important;
             color: #ffff !important;
             
         }
-        &.css-19wsa2m-MuiButtonBase-root-MuiTab-root{
+        &.MuiButtonBase-root{
             width: 195px;
             height: 41px;
             display: flex !important;
