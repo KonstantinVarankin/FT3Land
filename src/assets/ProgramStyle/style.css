@@ -74,6 +74,9 @@
   justify-content: center;
   align-items: center;
 }
+.program-business .box-item .img img {
+  height: 201px;
+}
 .program-business .box-item p {
   width: 90%;
   text-align: center;
@@ -312,6 +315,9 @@
   width: 100%;
   padding: 15px;
   font-size: 20px;
+}
+.program-footer .boxs .img img {
+  width: 477px;
 }
 
 @media (max-width: 1000px) {

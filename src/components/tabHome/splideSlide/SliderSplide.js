@@ -1,10 +1,10 @@
 import React from 'react'
 import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide"
 import '@splidejs/react-splide/css'
-import card1 from './../../../assets/svg/cardimg.svg'
+import card1 from './../../../assets/svg/box1.webp'
 import './../style.css'
-import card2 from './../../../assets/svg/card2.svg'
-import card3 from './../../../assets/svg/card3.svg'
+import card2 from './../../../assets/svg/box2.webp'
+import card3 from './../../../assets/svg/box3.webp'
 
 
 function SliderSplide() {

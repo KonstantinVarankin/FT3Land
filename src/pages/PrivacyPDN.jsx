@@ -2,7 +2,7 @@ import React from 'react'
 import './../assets/PrivacyPolicyStyle/style.css'
 import MenuBar from '../components/menu/menu'
 import BtmMenu from '../components/bottomMenu/bottomMenu'   
-import footerimg from './../assets/svg/Image.svg'
+import footerimg from './../assets/svg/footerimg.webp'
 
 function PrivacyPDN() {
   return (

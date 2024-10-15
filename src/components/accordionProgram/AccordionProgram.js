@@ -8,7 +8,6 @@ import RemoveCircleOutlineIcon from '@mui/icons-material/RemoveCircleOutline';
 import './style.css'
 // import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 // import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
-import plus from './../../assets/svg/plus.svg'
 
 export default function AccordionProgram() {
   return (

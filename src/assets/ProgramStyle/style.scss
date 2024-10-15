@@ -67,6 +67,9 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    img{
+                        height: 201px;
+                    }
                 }
 
                 p {
@@ -337,6 +340,11 @@
                     width: 100%;
                     padding: 15px;
                     font-size: 20px;
+                }
+            }
+            .img{
+                img{
+                    width: 477px;
                 }
             }
         }

@@ -1,17 +1,17 @@
 import React from 'react'
-import headerimg from './../assets/svg/headerhome.svg'
+import headerimg from './../assets/svg/headersecure.webp'
 import down from './../assets/svg/downoald.svg'
-import head from './../assets/svg/headprivacy.svg'
+import head from './../assets/svg/headersecure.webp'
 import './../assets/SecureStyle/style.css'
 import green1 from './../assets/svg/11.svg'
 import green2 from './../assets/svg/12.svg'
 import green3 from './../assets/svg/13.svg'
 import green4 from './../assets/svg/14.svg'
-import secure1 from './../assets/svg/secure1.svg'
-import secure2 from './../assets/svg/secure2.svg'
+import secure1 from './../assets/svg/secure1.webp'
+import secure2 from './../assets/svg/secure2.webp'
 import MenuBar from '../components/menu/menu'
 import BtmMenu from '../components/bottomMenu/bottomMenu'   
-import footerimg from './../assets/svg/Image.svg'
+import footerimg from './../assets/svg/footerimg.webp'
 
 function Secure() {
   return (

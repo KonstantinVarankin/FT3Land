@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-import imgbg from './../../assets/svg/carouselbg.svg'
+import imgbg from './../../assets/svg/crs.webp'
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';

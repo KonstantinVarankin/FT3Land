@@ -32,6 +32,9 @@
   justify-content: center;
   align-items: center;
 }
+.home-header .header_box .content .buttons .default img {
+  margin-right: 7px;
+}
 .home-header .header_box .img {
   width: 55%;
 }
@@ -70,6 +73,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home-business .box-item .img img {
+  height: 200px;
 }
 .home-business .box-item p {
   width: 100%;
@@ -455,6 +461,9 @@
   width: 100%;
   padding: 15px;
   font-size: 20px;
+}
+.home-footer .boxs .img img {
+  width: 514px;
 }
 .home-table .card-left {
   background: white;
