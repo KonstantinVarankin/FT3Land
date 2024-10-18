@@ -188,9 +188,10 @@ h1, h2, p, span {
   }
   .latter-head .text h1 {
     font-weight: 600 !important;
-    font-size: 24px;
+    font-size: 24px !important;
     line-height: 28.8px;
     margin: 24px 0 15px 0;
+    padding-top: 30px;
   }
   .latter-head .text span {
     margin-top: 0;

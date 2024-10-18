@@ -23,6 +23,7 @@
 
 @media (max-width: 1000px) {
   .PrivacyPolicy {
+    padding-top: 30px;
     background: #F7F7F7;
   }
   .PrivacyPolicy .boxs-policy {

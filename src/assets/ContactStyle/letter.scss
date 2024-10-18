@@ -191,9 +191,10 @@ h1,h2, p, span{
                 text-align: center;
                 h1{
                     font-weight: 600 !important;
-                    font-size: 24px;
+                    font-size: 24px !important;
                     line-height: 28.8px;
                     margin: 24px 0 15px 0;
+                    padding-top: 30px;
                 }
                 span{
                     margin-top: 0;

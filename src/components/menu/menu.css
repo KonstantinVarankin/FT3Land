@@ -118,12 +118,20 @@ label {
 @media (max-width: 700px) {
   .mobilelogo {
     display: block;
+    z-index: 99999999;
+  }
+  .check {
+    z-index: 999999 !important;
   }
   label {
     display: block;
+    z-index: 999999 !important;
   }
   #btnmenu {
     display: block;
+  }
+  #check:checked ~ nav {
+    position: fixed;
   }
   #check:checked ~ .mobilemenu {
     right: 0;
@@ -139,6 +147,11 @@ label {
     justify-content: space-between;
     padding-top: 20px;
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 15px 3.5%;
+    background: linear-gradient(180deg, rgba(247, 247, 247, 0.589) 40%, rgba(247, 247, 247, 0) 78%);
   }
   ul.btm {
     margin-bottom: 0;
@@ -154,8 +167,10 @@ label {
     list-style: none;
     font-size: 18px;
     font-weight: 500;
+    display: flex;
   }
   .mobilemenu {
+    padding-top: 30px;
     position: fixed;
     background: white;
     height: 100vh;
@@ -163,9 +178,9 @@ label {
     display: flex;
     flex-direction: column-reverse;
     justify-content: flex-end;
-    z-index: 1;
+    z-index: 99999;
     right: -100%;
-    top: 65px;
+    top: 0;
     transition: all 0.5s;
   }
   .logo {
@@ -189,6 +204,7 @@ label {
     gap: 30px;
   }
   .navbarmenu ul li {
+    display: flex;
     color: #0D182D;
     font-size: 18px;
     font-weight: 500;

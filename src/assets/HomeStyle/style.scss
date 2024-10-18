@@ -900,7 +900,9 @@
 }
 
 @media (max-width: 1000px) {
+
     .home {
+        padding-top: 30px;
         &-header {
             margin-top: 30px;
             .header_box {

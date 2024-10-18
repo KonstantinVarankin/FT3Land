@@ -1,0 +1,210 @@
+.modalLogin, .modalPassWord{
+    
+    .modal-dialog{
+        width: 574px !important;
+        
+    }
+    .modal-header{
+        border: none !important;
+    }
+    .btn-primary{
+        cursor: pointer;
+        &:hover{
+            background: #00B962;
+            color: white;
+            border: 1px solid #00B962;
+            svg{
+                path{
+                    fill: white;
+                }
+            }
+        }
+        &:active{
+            background: #00B962 !important;
+            border: 1px solid #00B962 !important;
+        }
+    }
+    .registr{
+        display: flex;
+        gap: 3px;
+        .greentext{
+            color: #00B962;
+        }
+    }
+}
+
+@media (min-width: 1000px) {
+    .successModall{
+        .modal-dialog{
+            width: 806px !important;
+            max-width: 806px !important;
+            
+        }
+        .data{
+            color: #00B962;
+            font-size: 32px;
+            font-weight: 600;
+        }
+        .successp{
+            padding: 0 20px;
+        }
+    }
+    .def{
+
+        .modal-dialog{
+            width: 574px !important;
+            max-width: 574px !important;
+            
+        }
+    }
+
+}
+@media (max-width: 999px) 
+{
+    .greentext{
+        font-size: 16px;
+    }
+    .forget_password{
+        margin-bottom: 10px;
+    }
+}
+.successModall{
+    .data{
+        color: #00B962;
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .successp{
+        padding: 0 20px;
+    }
+}
+
+.modal-dialog{
+    margin-top: 10% !important;
+}
+.successModal{
+    
+}
+.timer{
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.minut{
+    position: relative;
+    &::after{
+        background: url('./../../assets/svg/dotduble.svg')no-repeat center center;
+        content: '';
+        position: absolute;
+        width: 12px;
+        height: 36px;
+        right: -20px;
+    }
+    &::before{
+        background: url('./../../assets/svg/dotduble.svg')no-repeat center center;
+        content: '';
+        position: absolute;
+        width: 12px;
+        height: 36px;
+        left: -20px;
+    }
+}
+.hour, .minut, .secund{
+    background: #F7F7F7;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0D182D;
+    font-size: 32px;
+    font-weight: 600;
+    border-radius: 12px;
+    
+}
+.forget_password{
+    cursor: pointer;
+}
+.greentext{
+    color: #00B962;
+    margin-left: 3px !important;
+    cursor: pointer;
+}
+
+.modal-content{
+    border-radius: 40px !important;
+    .loginlogo{
+        margin-bottom: 30px;
+    }
+}
+.modal-header{
+    border: none !important;
+    padding: 35px !important;
+    margin-bottom: -85px;
+    z-index: 11111;
+    
+    .btn-close{
+        border:  2px solid #A3A3A3;
+        font-weight: 700;
+    font-size: 8px;
+    z-index: 11111;
+    }
+}
+.modal-content-login-1{
+    padding: 35px 35px 35px 35px;
+    .formstyle{
+        .inputs {
+            gap: 3%;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-top: 25px;
+
+            input {
+                width: 100%;
+                border: none;
+                background: #F7F7F7;
+                border-radius: 16px;
+                padding: 18px;
+                color: #0D182D;
+                font-size: 20px;
+                font-weight: 400;
+                margin-bottom: 20px;
+
+                &::placeholder {
+                    color: #A3A3A3;
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+            }
+
+        }
+        .green{
+            width: 100%;
+            
+        }
+        .registr{
+            font-size: 18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .btn-primary{
+                background: none;
+                color: #00B962;
+                border: none;
+                padding: 0 0 0 3px;
+                font-size: 18px;
+                border: none !important;
+                &:active{
+                    background: none !important;
+                    border: none !important;
+                }
+            }
+            span{
+
+                color:#D9D9D9 ;
+            }
+        }
+
+    }
+}

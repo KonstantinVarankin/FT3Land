@@ -730,6 +730,9 @@
   }
 }
 @media (max-width: 1000px) {
+  .home {
+    padding-top: 30px;
+  }
   .home-header {
     margin-top: 30px;
   }

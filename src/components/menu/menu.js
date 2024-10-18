@@ -11,6 +11,9 @@ import iconmenu from './../../assets/svg/iconmenu.svg'
 import x from './../../assets/svg/x.svg'
 import { Link } from "react-router-dom";
 import Contact from './../../pages/Contact'
+import LoginModal from '../LoginModal/LoginModal'
+import CallModal from '../CallModal/CallModal'
+import CalcModal from '../CalcModal/CalcModal'
 
 function menuNav() {
   return (
@@ -23,23 +26,27 @@ function menuNav() {
       </label>
       <div className='mobilemenu'>
         <div className='navbarmenu'>
-          <div className='logo'>
+          <Link to="/" relative="path" className='logo'>
             <img src={logo} alt='' />
-          </div>
+          </Link>
 
           <ul>
-            <li><img src={calc} alt='' /> Рассчитайте вашу экономию</li>
+            <li><img src={calc} alt='' /> <CalcModal /></li>
             <li><img src={rasxod} alt='' /> Сократите расходы на топливо</li>
-            <li><img src={phone} alt='' /> 8 (800) 200-97-09 <span>Связаться с нами</span></li>
-            <li><button><img src={human} alt='' /> Личный кабинет</button></li>
+            <li><img src={phone} alt='' /> 8 (800) 200-97-09 <span><CallModal /></span></li>
+            <li>
+              {/* <button><img src={human} alt='' /> Личный кабинет</button>  */}
+              <LoginModal />
+            </li>
           </ul>
         </div>
         <ul className='btm'>
           <Link to="/contact" relative="path">
-          Партнерская программа
+            Партнерская программа
           </Link>
-          <li>Партнерская программа</li>
-          <li>Карта заправок</li>
+          <Link to="/yandexmap" relative="path">
+            Карта заправок
+          </Link>
           <li>Клиентам</li>
           <li>Поставщикам</li>
           <li>Еще <img src={btm} alt='' /></li>
