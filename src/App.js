@@ -13,6 +13,7 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import PrivacyPDN from './pages/PrivacyPDN';
 import Secure from './pages/Secure';
 import YandexMap from './pages/YandexMap';
+import Question from './pages/Question';
 
 // Конфигурация axios
 axios.defaults.xsrfCookieName = 'csrftoken';
@@ -32,6 +33,7 @@ function App() {
                 <Route path="/privacyPDN" element={<PrivacyPDN />} />
                 <Route path="/secure" element={<Secure />} />
                 <Route path="/yandexmap" element={<YandexMap />} />
+                <Route path="/question" element={<Question />} />
                 {/* Здесь будут добавлены другие маршруты по мере необходимости */}
             </Routes>
         </Router>
