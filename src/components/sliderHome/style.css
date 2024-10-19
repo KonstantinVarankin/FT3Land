@@ -57,13 +57,13 @@
   }
   .secondSlider .splide__arrow--prev {
     left: 1em;
-    left: -3%;
+    left: -6%;
     background: none;
     color: #00B962;
     border: 3px solid #00B962;
   }
   .secondSlider .splide__arrow--next {
-    right: -3%;
+    right: -6%;
     background: none;
     color: #00B962;
     border: 3px solid #00B962;

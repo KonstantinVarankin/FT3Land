@@ -9,25 +9,35 @@
   color: #00B962;
   width: 30px;
   height: 30px;
-  border: 2px solid #00B962;
+  border: 3px solid #00B962;
   border-radius: 50%;
   padding: 10px;
-  margin-left: 10px;
+  margin-left: 4.5%;
 }
 .swiper .swiper-button-prev::after {
   font-size: 16px;
+  font-weight: 700 !important;
 }
 .swiper .swiper-button-next {
   color: #00B962;
   width: 30px;
   height: 30px;
-  border: 2px solid #00B962;
+  border: 3px solid #00B962;
   border-radius: 50%;
   padding: 10px;
-  margin-right: 10px;
+  margin-right: 4.5%;
 }
 .swiper .swiper-button-next::after {
   font-size: 16px;
+  font-weight: 700 !important;
+}
+
+.swiper-button-prev.swiper-button-disabled, .swiper-button-next.swiper-button-disabled {
+  opacity: 0.35;
+  cursor: auto;
+  pointer-events: none;
+  color: #A3A3A3 !important;
+  border: 3px solid #A3A3A3 !important;
 }
 
 .swiper-slide {
