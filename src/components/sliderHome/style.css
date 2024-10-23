@@ -17,6 +17,12 @@
 .secondSlider .card-tab .content .profile .name {
   width: 80%;
 }
+.secondSlider .card-tab .content .profile .name span {
+  font-weight: 600;
+}
+.secondSlider .card-tab .content .profile .name p {
+  font-weight: 400;
+}
 
 @media (min-width: 1000px) {
   .secondSlider .hh {
@@ -57,13 +63,13 @@
   }
   .secondSlider .splide__arrow--prev {
     left: 1em;
-    left: -6%;
+    left: -3.2%;
     background: none;
     color: #00B962;
     border: 3px solid #00B962;
   }
   .secondSlider .splide__arrow--next {
-    right: -6%;
+    right: -3.2%;
     background: none;
     color: #00B962;
     border: 3px solid #00B962;
@@ -119,7 +125,7 @@
   .secondSlider .card-tab .content .profile {
     display: flex;
     width: 100%;
-    gap: 20px;
+    gap: 13px;
   }
   .secondSlider .card-tab .content .profile .avatar {
     width: 50px !important;

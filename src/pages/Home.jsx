@@ -295,7 +295,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div className='home-form w-100 second'>
+            <div className='home-form greyy w-100 second'>
                 <div className='container'>
                     <img className='mobile_img' src={bgfromsecond} alt="" />
                     <form className='formstyle'>
